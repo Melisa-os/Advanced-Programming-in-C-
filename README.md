@@ -33,3 +33,26 @@ Country: Brazil Population: 210,147,125
 ...  
 Country: San Marino Population: 3,334  
 ```
+
+**Task Description for PovrsinaKruga:**  
+
+Write a program in C# that calculates the area of a circle using a lambda function. The program should:  
+
+1. **Define a lambda function** (`Func<double, string>`) named `povrsinaKruga`, which:  
+   - Takes a single parameter, `r` (the radius of the circle).  
+   - Calculates the area of the circle using the formula:  
+     \[
+     \text{Area} = \pi \times r^2
+     \]  
+   - Returns a formatted string containing the calculated area.  
+
+2. **Initialize** the radius (`poluprecnik`) with a predefined value.  
+3. **Invoke** the lambda function with the given radius to calculate the area.  
+4. **Display** the result in a user-friendly message.  
+
+**Input Data:**  
+- Radius (`poluprecnik`): 5.0  
+
+**Output Data:**  
+A message displaying the area of the circle, e.g.:  
+`The area of the circle is 78.54.`
